@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # FakeStake
 
 ## 📝 Description
@@ -115,3 +116,6 @@ Thanks go to these wonderful people 😇
 =======
 # stakegamesnew
 >>>>>>> e6a9cb00a1052a9ac1a6f4de13e4006d618fb04a
+=======
+# games
+>>>>>>> 9b2ac82f01c005ef9f88353479399c5733ca5290
