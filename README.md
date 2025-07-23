@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FakeStake
 
 ## 📝 Description
@@ -107,3 +108,6 @@ Thanks go to these wonderful people 😇
 
  If you like this project, please consider giving it a ⭐️ on GitHub!
  Would you like me to explain or elaborate on any part of this README?
+=======
+# stakegames
+>>>>>>> a5b8c0d72106e2fef2cc050cec419833e2224b75
