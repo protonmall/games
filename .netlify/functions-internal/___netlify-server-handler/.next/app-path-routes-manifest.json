@@ -1,0 +1,10 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/(games)/dice/page": "/dice",
+  "/(games)/flip/page": "/flip",
+  "/(games)/limbo/page": "/limbo",
+  "/(games)/mines/page": "/mines",
+  "/(games)/plinko/page": "/plinko",
+  "/page": "/"
+}

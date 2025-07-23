@@ -1,0 +1,74 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-6d69d28854e4e2fd.js",
+      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
+      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/main-app-8117469c1a7c94ce.js",
+      "static/chunks/app/_not-found/page-2d6d7499e42c07b5.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-6d69d28854e4e2fd.js",
+      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
+      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/main-app-8117469c1a7c94ce.js",
+      "static/css/6978777d44868972.css",
+      "static/chunks/421-2ac3eb81772df3c1.js",
+      "static/chunks/874-68f1746b1b4cee4c.js",
+      "static/chunks/app/layout-0056c1c572ec96b0.js"
+    ],
+    "/(games)/dice/page": [
+      "static/chunks/webpack-6d69d28854e4e2fd.js",
+      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
+      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/main-app-8117469c1a7c94ce.js",
+      "static/chunks/421-2ac3eb81772df3c1.js",
+      "static/chunks/277-69ce9132c250dbdb.js",
+      "static/chunks/app/(games)/dice/page-ad3681f6dd07231c.js"
+    ],
+    "/(games)/flip/page": [
+      "static/chunks/webpack-6d69d28854e4e2fd.js",
+      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
+      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/main-app-8117469c1a7c94ce.js",
+      "static/chunks/421-2ac3eb81772df3c1.js",
+      "static/chunks/app/(games)/flip/page-8ec0b5fa60849d70.js"
+    ],
+    "/(games)/limbo/page": [
+      "static/chunks/webpack-6d69d28854e4e2fd.js",
+      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
+      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/main-app-8117469c1a7c94ce.js",
+      "static/chunks/421-2ac3eb81772df3c1.js",
+      "static/chunks/277-69ce9132c250dbdb.js",
+      "static/chunks/app/(games)/limbo/page-77ffb7a935f3967d.js"
+    ],
+    "/(games)/mines/page": [
+      "static/chunks/webpack-6d69d28854e4e2fd.js",
+      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
+      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/main-app-8117469c1a7c94ce.js",
+      "static/chunks/421-2ac3eb81772df3c1.js",
+      "static/chunks/app/(games)/mines/page-a5f42756a0c62d30.js"
+    ],
+    "/(games)/plinko/page": [
+      "static/chunks/webpack-6d69d28854e4e2fd.js",
+      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
+      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/main-app-8117469c1a7c94ce.js",
+      "static/chunks/4b5b508e-c3793e9587f9acaa.js",
+      "static/chunks/421-2ac3eb81772df3c1.js",
+      "static/chunks/277-69ce9132c250dbdb.js",
+      "static/chunks/548-3295bee4a63e8252.js",
+      "static/chunks/app/(games)/plinko/page-2f8d8f53e2f9d341.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-6d69d28854e4e2fd.js",
+      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
+      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/main-app-8117469c1a7c94ce.js",
+      "static/chunks/874-68f1746b1b4cee4c.js",
+      "static/chunks/app/page-fdf98d67c2c209cf.js"
+    ]
+  }
+}

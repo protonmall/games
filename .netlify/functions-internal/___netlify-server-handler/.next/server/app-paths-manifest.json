@@ -1,0 +1,10 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(games)/dice/page": "app/(games)/dice/page.js",
+  "/(games)/flip/page": "app/(games)/flip/page.js",
+  "/(games)/limbo/page": "app/(games)/limbo/page.js",
+  "/(games)/mines/page": "app/(games)/mines/page.js",
+  "/(games)/plinko/page": "app/(games)/plinko/page.js",
+  "/page": "app/page.js"
+}
