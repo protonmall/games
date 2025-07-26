@@ -1,6 +1,6 @@
 headersOrigin = "inline"
 redirectsOrigin = "inline"
-functionsDirectory = "C:\\Users\\User\\Desktop\\FakeStake-main\\.netlify\\functions-internal"
+functionsDirectory = "C:\\Users\\User\\Desktop\\stak\\.netlify\\functions-internal"
 functionsDirectoryOrigin = "config"
 
 [dev]
@@ -17,12 +17,11 @@ package = "@netlify/plugin-nextjs"
 [plugins.inputs]
 
 [build]
-publish = "C:\\Users\\User\\Desktop\\FakeStake-main\\.next"
+publish = "C:\\Users\\User\\Desktop\\stak\\.next"
 publishOrigin = "config"
 commandOrigin = "config"
-base = "C:\\Users\\User\\Desktop\\FakeStake-main"
 command = "npm run build"
-functions = "C:\\Users\\User\\Desktop\\FakeStake-main\\.netlify\\functions-internal"
+functions = "C:\\Users\\User\\Desktop\\stak\\.netlify\\functions-internal"
 
 [build.environment]
 

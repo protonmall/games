@@ -33,7 +33,12 @@ const games = [
   link: "/flip",
   logo: <Rocket size={48} />,
   img: "/assets/flipper.jpg", 
-},
+},{
+  name: "KENO",
+  link: "/keno",
+  logo: <Rocket size={48} />,
+  img: "/assets/im.jpg", 
+}
 ];
 
 export default function Home() {

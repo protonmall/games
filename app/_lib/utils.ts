@@ -72,3 +72,9 @@ export function calculateMultiplier(
 export function getMultiplier(selectedTiles: number, mines: number): number {
   return calculateMultiplier(selectedTiles, mines);
 }
+
+
+export function getRandomDraw(size: number = 10) {
+  const pool = Array.from({ length: 40 }, (_, i) => i + 1);
+  return pool.sort(() => 0.5 - Math.random()).slice(0, size);
+}

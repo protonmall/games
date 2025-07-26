@@ -31,3 +31,7 @@ export const addGameResult = (
   gameHistory.push(newResult);
   return newResult;
 };
+
+
+export const GRID_NUMBERS = Array.from({ length: 40 }, (_, i) => i + 1);
+export const MATCH_LABELS = Array.from({ length: 10 }, (_, i) => `x${i + 1}`);

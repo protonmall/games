@@ -28,6 +28,12 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/cases",
+      "regex": "^/cases(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cases(?:/)?$"
+    },
+    {
       "page": "/dice",
       "regex": "^/dice(?:/)?$",
       "routeKeys": {},
@@ -44,6 +50,12 @@
       "regex": "^/flip(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/flip(?:/)?$"
+    },
+    {
+      "page": "/keno",
+      "regex": "^/keno(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/keno(?:/)?$"
     },
     {
       "page": "/limbo",
