@@ -20,15 +20,11 @@ export default function KenoPage() {
     resetAutoRounds,
   } = kenoStore();
 
-  // Autoplay loop
   useEffect(() => {
     if (!autoPlay) return;
 
     const interval = setInterval(() => {
-      // if no funds or no selection, skip
-      // if (balance < betAmount || selected.length === 0) return;
 
-      // if reached limit, stop
       if (completedAutoRounds >= autoRoundLimit) {
         setAutoPlay(false);
         resetAutoRounds();
@@ -36,7 +32,6 @@ export default function KenoPage() {
         return;
       }
 
-      // play and count
       playRound();
       incrementAutoRound();
     }, 2000);

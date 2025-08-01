@@ -2,88 +2,96 @@
   "pages": {
     "/_not-found/page": [
       "static/chunks/webpack-6d69d28854e4e2fd.js",
-      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
-      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/4bd1b696-8c8612b2d989d678.js",
+      "static/chunks/303-de3dde1623c39e85.js",
       "static/chunks/main-app-22fde405511b68dc.js",
-      "static/chunks/app/_not-found/page-2d6d7499e42c07b5.js"
+      "static/chunks/app/_not-found/page-cfa232c9b95992ef.js"
     ],
     "/layout": [
       "static/chunks/webpack-6d69d28854e4e2fd.js",
-      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
-      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/4bd1b696-8c8612b2d989d678.js",
+      "static/chunks/303-de3dde1623c39e85.js",
       "static/chunks/main-app-22fde405511b68dc.js",
-      "static/css/7670563b22dcb2c5.css",
-      "static/chunks/798-5511213ae1e8a252.js",
-      "static/chunks/874-68f1746b1b4cee4c.js",
-      "static/chunks/app/layout-f21ebc96d94090d3.js"
+      "static/css/dfd8ac9ec67c6a57.css",
+      "static/chunks/798-ab72be21704aed16.js",
+      "static/chunks/874-1592989f5e984a78.js",
+      "static/chunks/app/layout-7be7ceef3820ad7b.js"
     ],
-    "/(games)/cases/page": [
+    "/(games)/dragontower/page": [
       "static/chunks/webpack-6d69d28854e4e2fd.js",
-      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
-      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/4bd1b696-8c8612b2d989d678.js",
+      "static/chunks/303-de3dde1623c39e85.js",
       "static/chunks/main-app-22fde405511b68dc.js",
-      "static/chunks/798-5511213ae1e8a252.js",
-      "static/chunks/app/(games)/cases/page-8c4ae880a1b4ad8e.js"
-    ],
-    "/(games)/flip/page": [
-      "static/chunks/webpack-6d69d28854e4e2fd.js",
-      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
-      "static/chunks/303-1c6d549f43ffe506.js",
-      "static/chunks/main-app-22fde405511b68dc.js",
-      "static/chunks/798-5511213ae1e8a252.js",
-      "static/chunks/app/(games)/flip/page-d60216e956dfb737.js"
+      "static/chunks/798-ab72be21704aed16.js",
+      "static/chunks/app/(games)/dragontower/page-fb4179711fe5c719.js"
     ],
     "/(games)/dice/page": [
       "static/chunks/webpack-6d69d28854e4e2fd.js",
-      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
-      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/4bd1b696-8c8612b2d989d678.js",
+      "static/chunks/303-de3dde1623c39e85.js",
       "static/chunks/main-app-22fde405511b68dc.js",
-      "static/chunks/798-5511213ae1e8a252.js",
-      "static/chunks/58-5925961a0b0d74ba.js",
-      "static/chunks/app/(games)/dice/page-5914c9383fd9ee11.js"
+      "static/chunks/798-ab72be21704aed16.js",
+      "static/chunks/58-3415ac149c715475.js",
+      "static/chunks/app/(games)/dice/page-6f57014fce480edc.js"
+    ],
+    "/(games)/flip/page": [
+      "static/chunks/webpack-6d69d28854e4e2fd.js",
+      "static/chunks/4bd1b696-8c8612b2d989d678.js",
+      "static/chunks/303-de3dde1623c39e85.js",
+      "static/chunks/main-app-22fde405511b68dc.js",
+      "static/chunks/798-ab72be21704aed16.js",
+      "static/chunks/app/(games)/flip/page-c32563d0981c07ae.js"
     ],
     "/(games)/keno/page": [
       "static/chunks/webpack-6d69d28854e4e2fd.js",
-      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
-      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/4bd1b696-8c8612b2d989d678.js",
+      "static/chunks/303-de3dde1623c39e85.js",
       "static/chunks/main-app-22fde405511b68dc.js",
-      "static/chunks/798-5511213ae1e8a252.js",
-      "static/chunks/app/(games)/keno/page-b52b481e74f430c9.js"
+      "static/chunks/798-ab72be21704aed16.js",
+      "static/chunks/app/(games)/keno/page-b8fda792ba0ac138.js"
     ],
     "/(games)/limbo/page": [
       "static/chunks/webpack-6d69d28854e4e2fd.js",
-      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
-      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/4bd1b696-8c8612b2d989d678.js",
+      "static/chunks/303-de3dde1623c39e85.js",
       "static/chunks/main-app-22fde405511b68dc.js",
-      "static/chunks/798-5511213ae1e8a252.js",
-      "static/chunks/58-5925961a0b0d74ba.js",
-      "static/chunks/app/(games)/limbo/page-5a6ca7be251a3e5f.js"
+      "static/chunks/798-ab72be21704aed16.js",
+      "static/chunks/58-3415ac149c715475.js",
+      "static/chunks/app/(games)/limbo/page-3436edb9f0dd1c01.js"
     ],
     "/(games)/mines/page": [
       "static/chunks/webpack-6d69d28854e4e2fd.js",
-      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
-      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/4bd1b696-8c8612b2d989d678.js",
+      "static/chunks/303-de3dde1623c39e85.js",
       "static/chunks/main-app-22fde405511b68dc.js",
-      "static/chunks/798-5511213ae1e8a252.js",
-      "static/chunks/app/(games)/mines/page-87efe6f6be92f873.js"
+      "static/chunks/798-ab72be21704aed16.js",
+      "static/chunks/app/(games)/mines/page-7d788152f55d4028.js"
     ],
     "/(games)/plinko/page": [
       "static/chunks/webpack-6d69d28854e4e2fd.js",
-      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
-      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/4bd1b696-8c8612b2d989d678.js",
+      "static/chunks/303-de3dde1623c39e85.js",
       "static/chunks/main-app-22fde405511b68dc.js",
       "static/chunks/4b5b508e-c3793e9587f9acaa.js",
-      "static/chunks/798-5511213ae1e8a252.js",
-      "static/chunks/58-5925961a0b0d74ba.js",
-      "static/chunks/548-3295bee4a63e8252.js",
-      "static/chunks/app/(games)/plinko/page-3c82f20950fbc83b.js"
+      "static/chunks/798-ab72be21704aed16.js",
+      "static/chunks/58-3415ac149c715475.js",
+      "static/chunks/548-035589714cd08242.js",
+      "static/chunks/app/(games)/plinko/page-c0fca0cd534a9295.js"
+    ],
+    "/(games)/snake/page": [
+      "static/chunks/webpack-6d69d28854e4e2fd.js",
+      "static/chunks/4bd1b696-8c8612b2d989d678.js",
+      "static/chunks/303-de3dde1623c39e85.js",
+      "static/chunks/main-app-22fde405511b68dc.js",
+      "static/chunks/840-2f31ecb7b16b9b50.js",
+      "static/chunks/app/(games)/snake/page-f904743962e082f8.js"
     ],
     "/page": [
       "static/chunks/webpack-6d69d28854e4e2fd.js",
-      "static/chunks/4bd1b696-f6d85144c44eaa46.js",
-      "static/chunks/303-1c6d549f43ffe506.js",
+      "static/chunks/4bd1b696-8c8612b2d989d678.js",
+      "static/chunks/303-de3dde1623c39e85.js",
       "static/chunks/main-app-22fde405511b68dc.js",
-      "static/chunks/874-68f1746b1b4cee4c.js",
+      "static/chunks/874-1592989f5e984a78.js",
       "static/chunks/app/page-42fca37a37c60cca.js"
     ]
   }

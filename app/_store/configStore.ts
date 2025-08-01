@@ -18,7 +18,6 @@ type ConfigStore = {
 };
 
 export const useConfigStore = create<ConfigStore>()(
-  // persist(
   (set, get) => ({
     numberOfMines: 1,
     gameStarted: false,

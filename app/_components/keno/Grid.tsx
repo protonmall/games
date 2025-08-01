@@ -16,7 +16,6 @@ export const Grid = () => {
 
   useEffect(() => {
     if (!isSpinning && result.length > 0) {
-      // Play sound once per match
       const hits = result.filter((n) => selected.includes(n));
       if (hits.length > 0) {
         matchSoundRef.current?.play().catch(() => {});
@@ -25,7 +24,8 @@ export const Grid = () => {
   }, [result, isSpinning]);
 
   return (
-    <div className="grid grid-cols-8 gap-2 p-4 bg-[#14181f] rounded-xl">
+    <div className="grid grid-cols-8 gap-0.5 p-4 bg-[#14181f] rounded-xl">
+      
       {GRID_NUMBERS.map((n, index) => {
         const isSelected = selected.includes(n);
         const isHit = result.includes(n);
@@ -37,7 +37,7 @@ export const Grid = () => {
             onClick={() => kenoStore.getState().toggleNumber(n)}
             disabled={isSpinning}
             className={clsx(
-              'w-12 h-12 flex items-center justify-center rounded font-bold transition-all duration-300',
+              'w-20 h-20 flex items-center justify-center rounded font-bold transition-all duration-300 text-lg mb-2', // Added text-lg for bigger numbers
               isMatched
                 ? 'bg-yellow-400 text-black animate-glow'
                 : isSelected
@@ -57,7 +57,6 @@ export const Grid = () => {
         );
       })}
 
-      {/* 🔊 Match sound */}
       <audio
         ref={matchSoundRef}
         src="https://cdn.pixabay.com/audio/2022/03/15/audio_eb30f1e1a0.mp3"

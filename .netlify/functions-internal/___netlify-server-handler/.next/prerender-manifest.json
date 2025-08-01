@@ -30,7 +30,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/cases": {
+    "/limbo": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -43,8 +43,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/cases",
-      "dataRoute": "/cases.rsc",
+      "srcRoute": "/limbo",
+      "dataRoute": "/limbo.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -54,7 +54,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/plinko": {
+    "/dragontower": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -67,8 +67,56 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/plinko",
-      "dataRoute": "/plinko.rsc",
+      "srcRoute": "/dragontower",
+      "dataRoute": "/dragontower.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/snake": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/snake",
+      "dataRoute": "/snake.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/keno": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/keno",
+      "dataRoute": "/keno.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -126,7 +174,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/keno": {
+    "/plinko": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -139,8 +187,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/keno",
-      "dataRoute": "/keno.rsc",
+      "srcRoute": "/plinko",
+      "dataRoute": "/plinko.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -197,37 +245,13 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
-    },
-    "/limbo": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/limbo",
-      "dataRoute": "/limbo.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "e9dd8eb9e7ef71e109eceb81e9ee83ee",
-    "previewModeSigningKey": "45fe13726bb87c79122933eb417a192056bc804c4271a4daae5fdce345ec6f06",
-    "previewModeEncryptionKey": "e323d10ad636d0251ac46fbb778f265acf6ca66711af8273a99618a195c250b5"
+    "previewModeId": "7a56dcf07aa4891e29a0b2b104446689",
+    "previewModeSigningKey": "7eba76804eced484127dcc231c7ff80c88cf8d5539a0762f6b16338416043929",
+    "previewModeEncryptionKey": "618a25e586d070c7012ba7f2ea2a9970b200e7dc46c84aaa011f208790b0b648"
   }
 }

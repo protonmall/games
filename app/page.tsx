@@ -38,6 +38,17 @@ const games = [
   link: "/keno",
   logo: <Rocket size={48} />,
   img: "/assets/im.jpg", 
+},
+{
+  name: "dragontower",
+  link: "/dragontower",
+  logo: <Rocket size={48} />,
+  img: "/assets/dragon.jpg", 
+},{
+  name: "snake",
+  link: "/snake",
+  logo: <Rocket size={48} />,
+  img: "/assets/snakk.png", 
 }
 ];
 

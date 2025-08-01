@@ -12,7 +12,7 @@ const { WIDTH, HEIGHT } = PlinkoEngine;
 export default function Dice() {
   const canvasRef = useRef(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [plinkoEngine, setPlinkoEngine] = useState<PlinkoEngine>(); // Assuming you have a store/context
+  const [plinkoEngine, setPlinkoEngine] = useState<PlinkoEngine>(); 
   const { rowCount, riskLevel, multiplier } = usePlinkoStore();
   useEffect(() => {
     if (canvasRef.current) {

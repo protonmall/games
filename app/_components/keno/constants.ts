@@ -1,4 +1,3 @@
-// default grid and risk tiers
 export const GRID_NUMBERS = Array.from({ length: 40 }, (_, i) => i + 1);
 
 export const RISK_LEVELS = [

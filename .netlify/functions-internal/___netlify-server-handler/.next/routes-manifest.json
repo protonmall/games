@@ -28,16 +28,16 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
-      "page": "/cases",
-      "regex": "^/cases(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/cases(?:/)?$"
-    },
-    {
       "page": "/dice",
       "regex": "^/dice(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/dice(?:/)?$"
+    },
+    {
+      "page": "/dragontower",
+      "regex": "^/dragontower(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dragontower(?:/)?$"
     },
     {
       "page": "/favicon.ico",
@@ -74,6 +74,12 @@
       "regex": "^/plinko(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/plinko(?:/)?$"
+    },
+    {
+      "page": "/snake",
+      "regex": "^/snake(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/snake(?:/)?$"
     }
   ],
   "dataRoutes": [],

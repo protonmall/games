@@ -15,7 +15,7 @@ export const Config = () => {
     autoRoundLimit,
   } = kenoStore();
 
-  const balance = useCommonStore((state) => state.balance); // ✅ synced balance
+  const balance = useCommonStore((state) => state.balance);
 
   const handlePlay = () => {
     if (autoPlay) return;
@@ -85,4 +85,8 @@ export const Config = () => {
     </div>
   );
 };
+
+
+
+
 

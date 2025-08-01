@@ -88,7 +88,6 @@ export const kenoStore = create<KenoState>((set, get) => ({
     common.setBalance(balance - betAmount);
     set({ isSpinning: true });
 
-    // 🔊 Start spinning sound
     const spinningAudio = new Audio('/assets/audio/cino.mp3');
     spinningAudio.loop = true;
     spinningAudio.play().catch(err => console.error("Spin audio error:", err));
@@ -105,7 +104,6 @@ export const kenoStore = create<KenoState>((set, get) => ({
       let matched = selected.filter(n => draw.includes(n));
       let hits = matched.length;
 
-      // ✅ 50% win/loss control logic
       const forceWin = losses >= wins;
       if (forceWin && hits === 0) {
         const forcedHits = Math.min(selected.length, 3);
@@ -124,11 +122,9 @@ export const kenoStore = create<KenoState>((set, get) => ({
         common.setBalance(common.balance + payout);
       }
 
-      // 🔊 Stop spinning sound
       spinningAudio.pause();
       spinningAudio.currentTime = 0;
 
-      // 🔊 Matched number sound
       matched.forEach((_, i) => {
         setTimeout(() => {
           playSound('/assets/audio/bn.mp3');
